@@ -6,7 +6,11 @@
 ## 模型代码
 包含：
 （1）NER任务的所有训练模型（BERT/BERT-CRF/BERT-BiLSTM-CRF/ERNIE-CRF/ERNIE-BiLSTM-CRF/Weighted-ERNIE-BiLSTM-CRF）
+
 （2）关系抽取代码，包含大模型deepseek的api调用代码
+
 （3）多通道信息融合AKG-BERT代码
+
 （4）评估代码
+
 （5）制图代码
