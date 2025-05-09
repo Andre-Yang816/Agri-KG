@@ -3,6 +3,17 @@
 ## 数据集
 数据集包含：农业新闻文本分类语料库（标题、全文、标注类别）、农业实体集、知识图谱
 
+在“/datasets"目录下存放着最终的所有数据集，这些数据集可用于支撑相关研究。
+
+其中，NERT.txt 用于命名实体识别任务的训练，filtered_entities.txt为最终获取的实体集合。
+
+final_relations.csv为最终获取的三元组集
+
+processed_news.zip为本文涉及的所有语料信息，并进行了初步预处理。
+
+在所有模型的文件夹下，仍然有对应用于训练的数据集。
+----
+
 ## 模型代码
 包含：
 （1）NER任务的所有训练模型（BERT/BERT-CRF/BERT-BiLSTM-CRF/ERNIE-CRF/ERNIE-BiLSTM-CRF/Weighted-ERNIE-BiLSTM-CRF）
