@@ -1,1 +1,7 @@
+该文件夹包含了整个论文涉及的所有数据集
 
+其中，NERT.txt 用于命名实体识别任务的训练，filtered_entities.txt为最终获取的实体集合。
+
+final_relations.csv为最终获取的三元组集
+
+processed_news.zip为本文涉及的所有语料信息，并进行了初步预处理。
